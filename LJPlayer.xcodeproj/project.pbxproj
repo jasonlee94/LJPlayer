@@ -15,6 +15,9 @@
 		A13BF6891CEACBC20082A2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13BF6871CEACBC20082A2B6 /* LaunchScreen.storyboard */; };
 		A13BF6941CEACBC30082A2B6 /* LJPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BF6931CEACBC30082A2B6 /* LJPlayerTests.m */; };
 		A13BF69F1CEACBC30082A2B6 /* LJPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BF69E1CEACBC30082A2B6 /* LJPlayerUITests.m */; };
+		A13BF6AE1CEACBEE0082A2B6 /* LJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BF6AD1CEACBEE0082A2B6 /* LJPlayerView.m */; };
+		A13BF6B11CEB0B8E0082A2B6 /* LJPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BF6B01CEB0B8E0082A2B6 /* LJPlayerControlView.m */; };
+		A13BF6B31CEB0C040082A2B6 /* LJPlayerControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13BF6B21CEB0C040082A2B6 /* LJPlayerControlView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A13BF69A1CEACBC30082A2B6 /* LJPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13BF69E1CEACBC30082A2B6 /* LJPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJPlayerUITests.m; sourceTree = "<group>"; };
 		A13BF6A01CEACBC30082A2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13BF6AC1CEACBEE0082A2B6 /* LJPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJPlayerView.h; sourceTree = "<group>"; };
+		A13BF6AD1CEACBEE0082A2B6 /* LJPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJPlayerView.m; sourceTree = "<group>"; };
+		A13BF6AF1CEB0B8E0082A2B6 /* LJPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJPlayerControlView.h; sourceTree = "<group>"; };
+		A13BF6B01CEB0B8E0082A2B6 /* LJPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJPlayerControlView.m; sourceTree = "<group>"; };
+		A13BF6B21CEB0C040082A2B6 /* LJPlayerControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJPlayerControlView.xib; sourceTree = "<group>"; };
+		A13BF6B41CEB10740082A2B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,11 @@
 				A13BF67D1CEACBC20082A2B6 /* AppDelegate.m */,
 				A13BF67F1CEACBC20082A2B6 /* ViewController.h */,
 				A13BF6801CEACBC20082A2B6 /* ViewController.m */,
+				A13BF6AC1CEACBEE0082A2B6 /* LJPlayerView.h */,
+				A13BF6AD1CEACBEE0082A2B6 /* LJPlayerView.m */,
+				A13BF6AF1CEB0B8E0082A2B6 /* LJPlayerControlView.h */,
+				A13BF6B01CEB0B8E0082A2B6 /* LJPlayerControlView.m */,
+				A13BF6B21CEB0C040082A2B6 /* LJPlayerControlView.xib */,
 				A13BF6821CEACBC20082A2B6 /* Main.storyboard */,
 				A13BF6851CEACBC20082A2B6 /* Assets.xcassets */,
 				A13BF6871CEACBC20082A2B6 /* LaunchScreen.storyboard */,
@@ -118,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				A13BF67A1CEACBC20082A2B6 /* main.m */,
+				A13BF6B41CEB10740082A2B6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -246,6 +261,7 @@
 				A13BF6891CEACBC20082A2B6 /* LaunchScreen.storyboard in Resources */,
 				A13BF6861CEACBC20082A2B6 /* Assets.xcassets in Resources */,
 				A13BF6841CEACBC20082A2B6 /* Main.storyboard in Resources */,
+				A13BF6B31CEB0C040082A2B6 /* LJPlayerControlView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +289,8 @@
 				A13BF6811CEACBC20082A2B6 /* ViewController.m in Sources */,
 				A13BF67E1CEACBC20082A2B6 /* AppDelegate.m in Sources */,
 				A13BF67B1CEACBC20082A2B6 /* main.m in Sources */,
+				A13BF6AE1CEACBEE0082A2B6 /* LJPlayerView.m in Sources */,
+				A13BF6B11CEB0B8E0082A2B6 /* LJPlayerControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/LJPlayer/LJPlayer/PrefixHeader.pch;
 				INFOPLIST_FILE = LJPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ylb.LJPlayer;
@@ -424,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/LJPlayer/LJPlayer/PrefixHeader.pch;
 				INFOPLIST_FILE = LJPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ylb.LJPlayer;
@@ -496,6 +516,7 @@
 				A13BF6A51CEACBC30082A2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13BF6A61CEACBC30082A2B6 /* Build configuration list for PBXNativeTarget "LJPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +525,7 @@
 				A13BF6A81CEACBC30082A2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13BF6A91CEACBC30082A2B6 /* Build configuration list for PBXNativeTarget "LJPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +534,7 @@
 				A13BF6AB1CEACBC30082A2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
