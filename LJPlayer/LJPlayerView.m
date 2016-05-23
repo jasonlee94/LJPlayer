@@ -283,7 +283,6 @@ typedef NS_ENUM(NSInteger, LJPanState){
     }
     _playerItem = playerItem;
     if (playerItem) {
-        
         [playerItem addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
         [playerItem addObserver:self forKeyPath:@"loadedTimeRanges" options:NSKeyValueObservingOptionNew context:nil];
         // 缓冲区空了，需要等待数据
@@ -307,6 +306,7 @@ typedef NS_ENUM(NSInteger, LJPanState){
 -(void)setState:(LJPlayerState)state
 {
     _state = state;
+    
     state == LJPlayerStateBuffering ? ([self.playerControlView.activityIndicator startAnimating]) : ([self.playerControlView.activityIndicator stopAnimating]);
 }
 
